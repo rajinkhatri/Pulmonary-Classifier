@@ -1,0 +1,2 @@
+# Pulmonary-Classifier
+Minor Project
