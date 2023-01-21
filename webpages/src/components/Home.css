@@ -1,0 +1,11 @@
+.Home-page{
+    background-image: 'src\images\blacklungs.jpg';
+    /* display: flex;
+    align-items: center;
+    justify-content: stretch;
+    padding-left: 2rem; */
+}
+
+.header{
+    font-size: 2rem;
+}
