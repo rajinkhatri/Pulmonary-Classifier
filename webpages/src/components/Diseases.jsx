@@ -1,4 +1,4 @@
-function Diseases(){
+const Diseases = () => {
     return <div>
         <h1>
             Diseases Page

@@ -1,4 +1,4 @@
-function Aboutus(){
+const Aboutus= () => {
     return <div>
         <h1>
             About us Page

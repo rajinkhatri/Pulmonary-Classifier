@@ -1,4 +1,4 @@
-function Images(){
+const Images = () => {
     return <div>
         <h1>
             Images Page
