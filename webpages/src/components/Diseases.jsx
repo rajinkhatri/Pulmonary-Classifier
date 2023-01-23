@@ -1,5 +1,5 @@
 const Diseases = () => {
-    return <div>
+    return <div className='Diseases'>
         <h1>
             Diseases Page
         </h1>
