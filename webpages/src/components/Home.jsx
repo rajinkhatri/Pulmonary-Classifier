@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import {Photos} from '../components';
+import lungs from '../components/Photos';
 
 const Home = () => {
     return (
@@ -29,8 +29,19 @@ const Home = () => {
                 </p></div>
             </div>
             <div className='Middle-part'>
-                <div>Image will be placed here.</div>
-                <img src={Photos.middle_lungs}/>
+                <img src={lungs} className='mid-image' alt='imageofxray'/>
+            </div>
+            <div className='Right-part'>
+                <div className='place-holder'>
+                    placeholder for image
+                </div>
+                <div className='upload-button'>
+                    <button> Submit </button>
+                </div>
+                <div className='upload-text'>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Est quod nisi accusantium impedit voluptatibus nesciunt.</p>
+                </div>
             </div>
         </div>
     )
