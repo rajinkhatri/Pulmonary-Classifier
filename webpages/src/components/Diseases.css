@@ -1,0 +1,23 @@
+.Diseases{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #211e1e00;
+}
+
+.upper-part{
+    display: flex;
+    flex-direction: row;
+    background-color: #211e1e00;
+}
+
+.Image-section{
+    height: 50%;
+    width: 50%;
+}
+
+.text-section{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 2rem;
+}
