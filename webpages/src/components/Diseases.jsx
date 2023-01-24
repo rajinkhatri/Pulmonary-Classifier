@@ -1,8 +1,30 @@
+import lungs from '../components/Photos';
+import './Diseases.css';
+
 const Diseases = () => {
     return <div className='Diseases'>
-        <h1>
-            Diseases Page
-        </h1>
+        <div className="upper-part">
+            <div className="Image-section">
+                <img src={lungs} alt='imageofxray' />
+            </div>
+            <div className='text-section'>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum vel sunt asperiores labore quo ex saepe maiores,
+                sed nam dolores adipisci ab, eum excepturi quod.
+            </div>
+        </div>
+
+        <div className='lower-section'>
+            <div className="Image-section">
+                <img src={lungs} alt='imageofxray' />
+            </div>
+            <div className='text-section'>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum vel sunt asperiores labore quo ex saepe maiores,
+                sed nam dolores adipisci ab, eum excepturi quod.
+            </div>
+
+        </div>
     </div>
 }
 
