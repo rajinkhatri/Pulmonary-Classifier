@@ -1,0 +1,33 @@
+.Images{
+    background-color: #aca9ac;
+    display: flex;
+    flex-direction: column;
+}
+
+.header1{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 500px;
+}
+
+.Top-bar{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 2rem;
+    justify-content: space-between;
+}
+
+.image-holder{
+    height: 200px;
+    width: 200px;
+    padding-bottom: 30px;
+    background-color: rgba(177, 184, 187, 0.744);
+}
+
+.Lower-bar{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 2rem;
+    margin: none;
+    justify-content: space-between;
+}
