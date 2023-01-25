@@ -4,8 +4,8 @@ import './Diseases.css';
 const Diseases = () => {
     return <div className='Diseases'>
         <div className="upper-part">
-            <div className="Image-section">
-                <img src={lungs} alt='imageofxray' />
+            <div >
+                <img className="Image-section" src={lungs} alt='imageofxray' />
             </div>
             <div className='text-section'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -15,8 +15,8 @@ const Diseases = () => {
         </div>
 
         <div className='lower-section'>
-            <div className="Image-section">
-                <img src={lungs} alt='imageofxray' />
+            <div >
+                <img className="Image-section" src={lungs} alt='imageofxray' />
             </div>
             <div className='text-section'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
