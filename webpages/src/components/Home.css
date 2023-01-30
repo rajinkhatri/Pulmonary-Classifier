@@ -53,12 +53,12 @@
     width: 30%;
 }
 
-.place-holder{
-    background-color: #D8DFAE;
-    font-size: 3rem;
-    color: teal;
-    width: 100%;
-    height: 400px;
+.place-holder button img{
+    background-color: #D8DFAE; 
+    background-image: 'src\images\dog.jpg';
+    width: 350px;
+    height: 350px;
+    opacity: 0.45;
 }
 
 .upload-button{
