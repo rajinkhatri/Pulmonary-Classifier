@@ -4,7 +4,8 @@ const Navbar = () => {
   return (
     <nav className='nav'>
       <a href='/' className='site-title'>
-        App name
+        <img src={require("../images/navbaricon.gif")} alt="navbar-icon"/>
+        LungVision
       </a>
       <ul>
         <li>
