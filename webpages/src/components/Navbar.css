@@ -13,6 +13,12 @@
     font-weight: 100;
 }
 
+.site-title img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25%;
+}
+
 .nav ul{
     list-style: none;
     display: flex;
