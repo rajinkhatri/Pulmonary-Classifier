@@ -58,7 +58,7 @@
     background-image: 'src\images\dog.jpg';
     width: 350px;
     height: 350px;
-    opacity: 0.45;
+    /* opacity: 0.45; */
 }
 
 .upload-button{
