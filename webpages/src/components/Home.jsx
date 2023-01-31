@@ -1,6 +1,6 @@
 import React, { useState }from 'react';
 import './Home.css';
-import lungs from '../components/Photos';
+import { images } from '../components/Photos';
 
 const Home = () => {
     return (
@@ -15,7 +15,7 @@ const Home = () => {
 const LeftPart = () => {
     return (
         <div className='Left-part'>
-            <div className='App-name'>App Name</div>
+            <div className='App-name'>LungVision</div>
             <InfoText />
             <InfoText />
         </div>
@@ -41,7 +41,7 @@ const InfoText = () => {
 const MiddlePart = () => {
     return (
         <div className='Middle-part'>
-            <img src={lungs} className='mid-image' alt='imageofxray'/>
+            <img src={images.lungs} className='mid-image' alt='imageofxray'/>
         </div>
     )
 }
