@@ -18,10 +18,16 @@
 }
 
 .image-holder{
-    height: 200px;
-    width: 200px;
+    height: 350px;
+    width: 275px;
     padding-bottom: 30px;
-    background-color: rgba(177, 184, 187, 0.744);
+    /* background-color: rgba(177, 184, 187, 0.744); */
+    background-color: inherit;
+}
+
+.image-holder img{
+    height: inherit;
+    width: inherit;
 }
 
 .Lower-bar{
