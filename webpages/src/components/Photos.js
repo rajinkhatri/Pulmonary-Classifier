@@ -9,6 +9,7 @@ import Tuber2 from '../images/Tuber/Tuber2.png'
 import Tuber3 from '../images/Tuber/Tuber3.png'
 import Tuber4 from '../images/Tuber/Tuber4.png'
 import Tuber5 from '../images/Tuber/Tuber5.png'
+import dp from '../images/dpfp.jpg'
 
 
 export const images = {
@@ -22,5 +23,6 @@ export const images = {
     Tuber2,
     Tuber3,
     Tuber4,
-    Tuber5
+    Tuber5,
+    dp
 };
