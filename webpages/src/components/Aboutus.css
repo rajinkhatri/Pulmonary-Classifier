@@ -1,0 +1,47 @@
+.Abooutus{
+    background-color: rgb(67, 59, 59);
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+}
+
+.teacher-section{
+    display: flex;
+    flex-direction: row;
+    color: inherit;
+    align-items: center;
+}
+
+.teacher-section p{
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+a{
+    color: tomato;
+}
+
+.student-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.teacher-section img{
+    height: 50px;
+    width: auto;
+    border-radius: 25%;
+}
+
+.student-section p{
+    padding-left: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.student-section img{
+    height: 50px;
+    width: auto;
+    border-radius: 25%;
+}
