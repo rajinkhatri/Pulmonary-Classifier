@@ -3,6 +3,7 @@ import './Diseases.css'
 const Diseases = () => {
     return (
     <div className='Diseases_page'>
+        <h1>Some information about diseases</h1>
         <Upperpart />
         <Upperpart />
     </div>
