@@ -5,9 +5,9 @@ import {images} from './Photos'
 const Images = () => {
     return(
         <div className='Images'>
-            <h1 className='header1'>Some images of tuberculosis</h1>
-            <Topbar images={images}/>
             <h1 className='header1'>Some images of Pneumonia</h1>
+            <Topbar images={images}/>
+            <h1 className='header1'>Some images of Tuberculosis</h1>
             <Lowbar images={images}/>
         </div>
     )
@@ -29,6 +29,7 @@ const Imageholder = (props) => {
     return(
         <div className='image-holder'>
         <img src={props.src} alt='drisya of lungs'></img>
+        {/* <p>Image no 1</p> */}
         </div>
     )
 }

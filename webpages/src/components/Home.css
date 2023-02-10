@@ -5,6 +5,8 @@
     flex-direction: row;
     padding-left: 2rem;
     background-color: #D8D8BE;
+    padding-top: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .Left-part{
@@ -16,18 +18,23 @@
 
 .App-name{
     font-size: 3rem;
-    font-family: Arial, Helvetica, sans-serif;
     color: rgb(213, 90, 90);
     padding: 2rem 2rem;
 }
 
 .Info{
-    font-size: 1rem;
+    font-size: 1.04rem;
     color: inherit;
-    padding: 2rem 2rem;
+    padding: 0.5rem 2rem;
     align-items: flex-start;
     justify-content: left;
     width: 100%;
+}
+
+.Info p{
+    font-weight: 500;
+    justify-content: start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .Middle-part{
@@ -54,11 +61,9 @@
 }
 
 .place-holder button img{
-    background-color: #D8DFAE; 
-    background-image: 'src\images\dog.jpg';
+    background-color: inherit; 
     width: 350px;
     height: 350px;
-    /* opacity: 0.45; */
 }
 
 .upload-button{
@@ -66,7 +71,6 @@
     align-items: center;
     justify-content: center;
     font-size: 32;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .upload-button button{
@@ -78,11 +82,9 @@
     border-radius: 15px;
     padding: 10px 15px;
     font-size: 2rem;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .upload-text p{
     font-size: 32;
-    font-family: Arial, Helvetica, sans-serif;
     color: black;
 }

@@ -3,7 +3,7 @@ import {images} from '../components/Photos'
 
 const Aboutus= () => {
     return (
-        <div className="Abooutus">
+        <div className="Aboutus">
             <h1>
                 Supervisor
             </h1>
@@ -18,16 +18,16 @@ const Aboutus= () => {
 }
 
 const teachers = [
-    {Name: 'Sir',
-    Rollno:5,
+    {Name: 'Er. Suramya Sharma Dahal',
+    Rollno:1234567890,
     link:'https://www.linkedin.com/in/rajin-khatri-220b49217/'}
 ]
 
 const students = [
-    {Name: 'Rajin', Rollno:1, link:'https://www.linkedin.com/in/rajin-khatri-220b49217/'},
-    {Name: 'Sujan', Rollno:2, link:'https://www.linkedin.com/in/sujan-lamichhane-903ba5187/'},
-    {Name: 'Amit', Rollno:3, link:'https://www.facebook.com/97m.it'},
-    {Name: 'Pilot', Rollno:4, link:'https://www.facebook.com/khadka314'}
+    {Name: 'Rajin Khatri', Rollno:"THA076BCT034", link1:'https://www.linkedin.com/in/rajin-khatri-220b49217/'},
+    {Name: 'Sujan Lamichhane', Rollno:"THA076BCT045", link1:'https://www.linkedin.com/in/sujan-lamichhane-903ba5187/'},
+    {Name: 'Amit Raj Pant', Rollno:"THA076BCT005", link1:'https://www.facebook.com/97m.it'},
+    {Name: 'Pilot Khadka', Rollno:"THA076BCT026", link1:'https://www.facebook.com/khadka314'}
 ]
 
 const Informationtt = (props) => {
@@ -36,7 +36,7 @@ const Informationtt = (props) => {
             <img src={images.dp} alt="describing profile"/>
             <p>{props.teachers.Name}</p>
             <p>{props.teachers.Rollno}</p>
-            <a target="_blank" href={props.teachers.link}>Linked in profile</a>
+            <a href={props.teachers.link} target="_blank" rel='noreferrer'>Linked in profile</a>
         </div>
     )
 }
@@ -47,7 +47,7 @@ const Informationst = (props) => {
             <img src={images.dp} alt="student profile"/>
             <p>{props.students.Name}</p>
             <p>{props.students.Rollno}</p>
-            <a target='_blank' href={props.students.link}>Linked in</a>
+            <a href={props.students.link1} target='_blank' rel='noreferrer'>Linked in</a>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import lungs from '../images/newlungs.png';
+import lungs from '../images/nobglungs.png';
 import pnemo1 from '../images/Pnemo/pnemo1.png'
 import pnemo2 from '../images/Pnemo/pnemo2.png'
 import pnemo3 from '../images/Pnemo/pnemo3.png'
