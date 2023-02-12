@@ -9,6 +9,7 @@
     border: 1rem;
     position: fixed;
     width: 98%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .site-title{
@@ -16,7 +17,7 @@
     font-weight: 100;
 }
 
-.site-title img{
+.nav img{
     height: 50px;
     width: 50px;
     border-radius: 25%;

@@ -10,6 +10,14 @@ import Tuber3 from '../images/Tuber/Tuber3.png'
 import Tuber4 from '../images/Tuber/Tuber4.png'
 import Tuber5 from '../images/Tuber/Tuber5.png'
 import dp from '../images/dpfp.jpg'
+import linkedimage from '../images/linkedin.png'
+import githubimage from '../images/github.png'
+import mailimage from '../images/mail.png'
+import rajin from '../images/Students/rajin.jpg'
+import sujan from '../images/Students/sujan.png'
+import amit from '../images/Students/amit.png'
+import pilot from '../images/Students/pilot.png'
+
 
 
 export const images = {
@@ -24,5 +32,12 @@ export const images = {
     Tuber3,
     Tuber4,
     Tuber5,
-    dp
+    dp,
+    linkedimage,
+    githubimage,
+    mailimage,
+    rajin,
+    sujan,
+    amit,
+    pilot
 };
