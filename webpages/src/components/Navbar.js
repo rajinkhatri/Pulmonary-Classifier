@@ -13,16 +13,16 @@ const Navbar = () => {
           <Link to='/'>Home</Link>
         </li>
         <li>
-          {/* <a href='/Diseases'>Diseases</a> */}
-          <Link to='#Diseases' smooth={true}>Diseases</Link>
+          <a href='#second_section'>Diseases</a>
+          {/* <Link to='#Diseases' smooth={true}>Diseases</Link> */}
         </li>
         <li>
-          {/* <a href='/Images'>Images</a> */}
-          <Link to='#Images' smooth={true}>Images</Link>
+          <a href='#third_section'>Images</a>
+          {/* <Link to='#Images' smooth={true}>Images</Link> */}
         </li>
         <li>
-          {/* <a href='/Aboutus'>About Us</a> */}
-          <Link to='#Aboutus' smooth={true}>About Us</Link>
+          <a href='#fourth_section'>About Us</a>
+          {/* <Link to='#Aboutus' smooth={true}>About Us</Link> */}
         </li>
       </ul>
     </nav>

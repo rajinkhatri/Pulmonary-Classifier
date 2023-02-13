@@ -3,7 +3,7 @@ import { images } from '../components/Photos'
 
 const Aboutus = () => {
     return (
-        <div className="Aboutus" id="Aboutus">
+        <div className="Aboutus" id='#fourth_section'>
             <h1>
                 Supervisor
             </h1>

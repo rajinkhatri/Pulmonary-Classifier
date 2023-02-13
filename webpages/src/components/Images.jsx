@@ -4,7 +4,7 @@ import {images} from './Photos'
 
 const Images = () => {
     return(
-        <div className='Images' id="Images">
+        <div className='Images' id='#third_section'>
             <h1 className='header1'>Some images of Pneumonia</h1>
             <Topbar images={images}/>
             <h1 className='header1'>Some images of Tuberculosis</h1>

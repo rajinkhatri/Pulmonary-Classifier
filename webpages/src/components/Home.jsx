@@ -65,11 +65,16 @@ const RightPart = () => {
         input.click();
     };
 
-    const submitImage = () => {
-        return(
-            alert("image will be submitted")
-        )
-    };
+    const SubmitImage = () => {
+        if (!image) return alert("Please select an image first");
+    
+        // return window.location.replace(`/Output?image=${image}`);
+        // return image;
+        return window.open(image);
+        // return document.location.href = "/Output";
+
+    };    
+    
 
     return (
         <div className='Right-part'>
@@ -87,7 +92,10 @@ const RightPart = () => {
                 </button>
             </div>
             <div className='upload-button'>
-                <button onClick={submitImage}>Submit</button>
+                <button onClick={SubmitImage}>Submit</button>
+                {/* <button>
+                    <a onClick={SubmitImage} target={'_blank'}> Submit</a>
+                </button> */}
             </div>
             <div className='upload-text'>
                 <p>

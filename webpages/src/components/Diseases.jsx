@@ -2,7 +2,7 @@ import './Diseases.css'
 
 const Diseases = () => {
     return (
-        <div className="Disease" id="Diseases">
+        <div className="Disease" id='#second_section'>
             <h1 className="Topic">Some information about the Diseases</h1>
             <Tuberculosis />
             <Pneumonia />
