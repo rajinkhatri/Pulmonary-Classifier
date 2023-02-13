@@ -6,7 +6,7 @@ import Diseases from './components/Diseases';
 import Images from './components/Images';
 import Aboutus from './components/Aboutus';
 import Output from './components/Output';
-// import { Route, Routes } from 'react-router-dom';
+// import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -23,7 +23,12 @@ function App() {
     <Diseases />
     <Images />
     <Aboutus />
-    <Output/>
+    {/* <Routes> */}
+      {/* <Switch> */}
+      {/* <Route path='/' component={App} /> */}
+    {/* <Route path='/Output' component={Output} /> */}
+    {/* </Switch> */}
+    {/* </Routes> */}
     </div>
     </div>
   );
