@@ -1,27 +1,34 @@
 import './Navbar.css'
-import { Link } from 'react-router-dom';
+// import { LinkR } from 'react-router-dom';
+import {Link as LinkS} from 'react-scroll'
+import { animateScroll as scroll } from 'react-scroll';
 
 const Navbar = () => {
+
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  }
   return (
     <nav className='nav'>
-      <Link to='/' smooth>
+      <LinkS onClick={toggleHome}>
         <img src={require("../images/navbaricon.gif")} alt="navbar-icon"/>
         <p>LungVision</p>
-      </Link>
+      </LinkS>
       <ul>
         <li>
-          <Link to='/'>Home</Link>
+        <LinkS onClick={toggleHome}>Home</LinkS>
+          {/* <Link to='/'>Home</Link> */}
         </li>
         <li>
-          <a href='#second_section'>Diseases</a>
+          <LinkS to="second_section" smooth={true} duration={1000} spy={true} >Diseases</LinkS>
           {/* <Link to='#Diseases' smooth={true}>Diseases</Link> */}
         </li>
         <li>
-          <a href='#third_section'>Images</a>
+          <LinkS to='third_section' smooth={true} duration={1000} spy={true}>Images</LinkS>
           {/* <Link to='#Images' smooth={true}>Images</Link> */}
         </li>
         <li>
-          <a href='#fourth_section'>About Us</a>
+          <LinkS to='fourth_section' smooth={true} duration={1000} spy={true}>About Us</LinkS>
           {/* <Link to='#Aboutus' smooth={true}>About Us</Link> */}
         </li>
       </ul>

@@ -6,13 +6,14 @@
     padding-left: 2rem;
     background-color: #D8D8BE;
     padding-top: 2rem;
+    width: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .Left-part{
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: auto;
     width: 25%;
 }
 
@@ -43,13 +44,15 @@
     justify-content: center; 
     flex-direction: column;
     padding: 2rem 2rem;
-    height: 100%;
+    /* height: 100%; */
     width: 50%;
+    height: auto;
 }
 
 .mid-image{
-    opacity: 0.8;
     width: 85%;
+    height: auto;
+    opacity: 0.8;
 }
 
 .Right-part{
@@ -60,10 +63,15 @@
     width: 30%;
 }
 
-.place-holder button img{
+/* .place-holder img{
     background-color: inherit; 
-    width: 350px;
-    height: 350px;
+    width: auto;
+    height: auto;
+} */
+
+.upload_image{
+    width: 50%;
+    height: auto;
 }
 
 .upload-button{
@@ -82,6 +90,8 @@
     border-radius: 15px;
     padding: 10px 15px;
     font-size: 2rem;
+    width: auto;
+    height: auto;
 }
 
 .upload-text p{

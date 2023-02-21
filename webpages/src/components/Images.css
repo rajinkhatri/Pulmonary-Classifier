@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2rem 2rem;
 }
 
 .header1{
@@ -18,8 +19,8 @@
 }
 
 .image-holder{
-    height: 275px;
-    width: auto;
+    height: auto;
+    width: 75%;
     padding-bottom: 30px;
 }
 

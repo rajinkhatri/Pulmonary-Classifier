@@ -29,7 +29,7 @@
 .teacher-section p{
     padding-left: 1rem;
     padding-right: 2rem;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
     font-size: 1rem;
 }
 
@@ -45,18 +45,18 @@ a{
 
 .profile_image{
     height: 50px;
-    width: 50px;
+    width: auto;
     border-radius: 25%;
 }
 
 .student-section a{
-    padding-right: 25px;
+    padding-right: 5%;
 }
 
 .student-section p{
     padding-left: 1rem;
-    padding-right: 2rem;
-    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    /* padding-bottom: 0.5rem; */
 }
 
 .links_image{

@@ -1,17 +1,15 @@
 import './App.css';
-// import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom'; 
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Diseases from './components/Diseases';
-import Images from './components/Images';
-import Aboutus from './components/Aboutus';
-import Output from './components/Output';
-// import { Routes, Route } from 'react-router-dom';
+import HomePage from './Pages/HomePage';
+// import {BrowserRouter as Router, Route} from 'react-router-dom'; 
+// import Navbar from './components/Navbar';
+
+import { Routes, Route } from 'react-router-dom';
+import OutputPage from './components/Output';
 
 function App() {
   return (
-    <div>
-    <Navbar/>
+    // <div>
+    // <Navbar/>
     <div>
       {/* <Routes>
         <Route path='/' element={<Home/>} />
@@ -19,18 +17,19 @@ function App() {
         <Route path='/Images' element={<Images/>} />
         <Route path='/Aboutus' element={<Aboutus/>} />
     </Routes> */}
-    <Home/>
-    <Diseases />
-    <Images />
-    <Aboutus />
     {/* <Routes> */}
       {/* <Switch> */}
       {/* <Route path='/' component={App} /> */}
     {/* <Route path='/Output' component={Output} /> */}
     {/* </Switch> */}
     {/* </Routes> */}
+
+    <Routes>
+    <Route path='/' element={<HomePage/>} />
+    <Route path='/output' element={<OutputPage/>} />
+    </Routes>
     </div>
-    </div>
+    // </div>
   );
 }
 
