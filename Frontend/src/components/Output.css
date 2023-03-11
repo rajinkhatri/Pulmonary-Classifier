@@ -1,0 +1,57 @@
+.Output_page{
+    background-color: rgba(84, 85, 85, 0.67);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 2rem;
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Header_output{
+    color: chartreuse;
+    font-size: 3rem;
+    align-items: center;
+}
+
+.Left_part{
+    display: flex;
+    flex-direction: column;
+}
+
+.Left_part img{
+    width: 40%;
+    height: auto;
+}
+
+.Left_part p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.bot-image{
+    background-color: rgb(153, 153, 71);
+    background-image: url(https://publichealth.gsu.edu/files/2020/09/iStock-1209688759-1280x658.jpg);
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+}
+
+.Button_back{
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+}
+
+.Button_back button{
+    background-color: aqua;
+    font-size: 2rem;
+    border-radius: 10%;
+}
+
+.Right_part{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+

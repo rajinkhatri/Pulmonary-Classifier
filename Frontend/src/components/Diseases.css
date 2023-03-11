@@ -1,0 +1,46 @@
+.Disease{
+    background-color: rgb(166, 166, 166); 
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Topic{
+    align-items: center;
+    font-weight: bold;
+}
+
+.Disease1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+
+.Disease1 img{
+    width: 20%;
+    height: auto;
+}
+
+.text_part{
+    font-size: 1.5rem;
+    color: black;
+    padding-left: 2rem;
+    justify-content: center;
+}
+
+.Disease2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Disease2 img{
+    width: 20%;
+    height: auto;
+}
