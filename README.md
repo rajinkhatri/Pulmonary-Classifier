@@ -91,4 +91,4 @@ Go to http://localhost:3000/ to view the application.
 The dataset contains a total of 17,275 images, consisting of 10,406 normal images, 5,775 pneumonia images, and 1,094 tuberculosis infected images
 
 Dataset: 
-'''https://www.kaggle.com/datasets/amitpant7/lungvision'''
+```https://www.kaggle.com/datasets/amitpant7/lungvision```
